@@ -1,0 +1,28 @@
+{
+  "name": "paste-as-plain-text",
+  "main": "./lib/index.js",
+  "version": "0.0.0",
+  "description": "Add a support for pasting text as plain text",
+  "keywords": [],
+  "repository": "https://github.com/inkdropapp/inkdrop-paste-as-plain-text",
+  "author": "Takuya Matsuyama <hi@craftz.dog>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "dev": "babel src/ -s -d lib/ --watch"
+  },
+  "engines": {
+    "inkdrop": ">=3.17.3 <4.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "standard": "^10.0.3"
+  }
+}

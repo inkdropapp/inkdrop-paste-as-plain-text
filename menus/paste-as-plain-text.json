@@ -1,0 +1,13 @@
+{
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "Paste as Plain Text",
+          "command": "paste-as-plain-text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  ".platform-darwin .CodeMirror": {
+    "cmd-shift-v": "paste-as-plain-text"
+  },
+  ".platform-linux .CodeMirror": {
+    "ctrl-shift-v": "paste-as-plain-text"
+  },
+  ".platform-win32 .CodeMirror": {
+    "ctrl-shift-v": "paste-as-plain-text"
+  }
+}
