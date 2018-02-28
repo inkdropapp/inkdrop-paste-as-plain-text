@@ -1,7 +1,7 @@
 {
   "name": "paste-as-plain-text",
   "main": "./lib/index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add a support for pasting text as plain text",
   "keywords": [],
   "repository": "https://github.com/inkdropapp/inkdrop-paste-as-plain-text",
