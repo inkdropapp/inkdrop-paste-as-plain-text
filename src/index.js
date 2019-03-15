@@ -1,13 +1,13 @@
 import { pasteText } from './paste-text'
 
 module.exports = {
-  activate () {
+  activate() {
     this.subscription = inkdrop.commands.add(document.body, {
       'paste-as-plain-text': () => pasteText()
     })
   },
 
-  deactivate () {
+  deactivate() {
     this.subscription.dispose()
   }
 }
